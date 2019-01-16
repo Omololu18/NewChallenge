@@ -1,0 +1,82 @@
+body{
+background-color:#f4f4f4;
+color: #555;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+#navbar{
+    background-color:#333;
+    color:#fff
+}
+
+#navbar ul{
+   padding:0;
+   list-style: none; 
+}
+
+#navbar li{
+    display:inline;
+    right: 600px
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-left: 15px;
+}
+
+div{
+    background-image: url('../images/sleek.gif');
+    background-size: cover;
+    background-position:center center;
+}
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.my-form{
+    padding:center;
+    float:center;
+    width:400px;
+    position:absolute;
+    left:400px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], {
+    padding:8px;
+    width:100%;
+}
+
+.my-form input[type="submit"]{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border: none;
+}
