@@ -1,6 +1,7 @@
 body{
-background-color:#f4f4f4;
-color: #555;
+    background-image: url("images/bartaile.jpg");
+    background-color:#f4f4f4;
+    color: #555;
 }
 
 a{
@@ -55,10 +56,15 @@ div{
 
 .my-form{
     padding:center;
-    float:center;
-    width:400px;
-    position:absolute;
-    left:400px;
+    margin:auto;
+    width:60px;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+
+.my-form:hover{
+    opacity:1.0;
+    filter:alpha(opacity=100);
 }
 
 .my-form .form-group{
