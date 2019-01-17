@@ -4,6 +4,12 @@ body{
     color: #555;
 }
 
+body a{
+    text-align: right;
+    margin:right;
+}
+
+
 a{
     text-decoration: none;
     color: red;
@@ -37,11 +43,12 @@ a:hover{
     color:#fff;
     text-decoration: none;
     font-size:18px;
+    margin-right: 50px auto;
     padding-left: 15px;
+    border-width: 30px;
 }
 
 div{
-    background-image: url('../images/sleek.gif');
     background-size: cover;
     background-position:center center;
 }
@@ -56,7 +63,7 @@ div{
 
 .my-form{
     padding:center;
-    margin:auto;
+    margin: 50px auto;
     width:60px;
     opacity:0.5;
     filter:alpha(opacity=50);
@@ -85,4 +92,15 @@ div{
     color:#fff;
     padding:10px 15px;
     border: none;
+}
+
+.my-form a{
+    text-decoration:none;
+    font-size: 15px;
+    line-height:20px;
+    color:red; 
+}
+
+.my-form a:hover{
+    color:#fff;
 }
